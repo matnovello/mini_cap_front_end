@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Login from '../views/Login.vue'
 import Index from '../views/Index.vue'
+import Create from '../views/Create.vue'
 
 
 Vue.use(VueRouter)
@@ -30,6 +31,11 @@ const routes = [
     path: "/index",
     name: 'Index',
     component: Index
+  },
+  {
+    path: "/create",
+    name: 'Create',
+    component: Create
   },
 
 ]

@@ -4,6 +4,7 @@
       <router-link to="/about">About</router-link> | 
       <router-link to="/index">Index</router-link> |
       <router-link to="/login">Login</router-link> |
+      <router-link to="/create">Create</router-link>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Navbar</a>
